@@ -37,29 +37,34 @@ Rotation: Number of times original list was rotated to get current list i.e 3 fo
 ### Tests ###
 
 tests =[
-    {
-        "input":[],
-        "output":-1
-    },
-    {
-        "input": [12, 13, 15, 0, 3, 5, 7],
-        "output": 3
-    },
-    {
-        "input": [4],
-        "output": 0
-    },
-    {
-        "input": [0, 3, 5, 7, 12, 13, 15],
-        "output": 0
-    },
-    {
-        "input": [15, 3, 5, 7, 8, 11],
-        "output": 1
-    },
-    {
-        "input": [-5, -4, -3, -1, -7, -9, -10],
-        "output": 4
-    }
+            {
+                "input":[],
+                "output":-1
+            },
+
+            {
+                "input": [12, 13, 15, 0, 3, 5, 7],
+                "output": 3
+            },
+
+            {
+                "input": [4],
+                "output": 0
+            },
+
+            {
+                "input": [0, 3, 5, 7, 12, 13, 15],
+                "output": 0
+            },
+
+            {
+                "input": [15, 3, 5, 7, 8, 11],
+                "output": 1
+            },
+            
+            {
+                "input": [-5, -4, -3, -1, -7, -9, -10],
+                "output": 4
+            }
     
 ]
