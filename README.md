@@ -33,3 +33,33 @@ Rotation: Number of times original list was rotated to get current list i.e 3 fo
 7. A list with negative integers rotated 4 times i.e [-5, -4, -3, -1, -7, -9, -10]
 
 8. A list with negative and positive integers rotated 5 times i.e  [-12,-10, 0, 4, 6, -24, -20, -18, -14]
+
+### Tests ###
+
+tests =[
+    {
+        "input":[],
+        "output":-1
+    },
+    {
+        "input": [12, 13, 15, 0, 3, 5, 7],
+        "output": 3
+    },
+    {
+        "input": [4],
+        "output": 0
+    },
+    {
+        "input": [0, 3, 5, 7, 12, 13, 15],
+        "output": 0
+    },
+    {
+        "input": [15, 3, 5, 7, 8, 11],
+        "output": 1
+    },
+    {
+        "input": [-5, -4, -3, -1, -7, -9, -10],
+        "output": 4
+    }
+    
+]
