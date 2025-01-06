@@ -43,3 +43,13 @@ def test_rotated_list_linear_sol_with_list_rotation_and_negative_ints(numbers, r
 ])
 def test_rotated_list_linear_sol_with_n_rotaions(numbers, rotation):
     assert rotated_list_linear_sol(numbers) == rotation
+
+#Test with a list of both positive and negative numbers
+@pytest.mark.parametrize("numbers, rotation", [
+    ([10, 12, 14, -10, -8, -5, 0], 3),
+    ([20, -20, -10, -5, 0], 1),
+    ([-20, -15, -10, 0, 5, 15, 20], 0),
+    ([15, 20, -20, -15, -10, -5, 0, 5], 2)
+])
+def test_rotated_list_linear_sol_with_both_positive_and_negative_integers(numbers, rotation):
+    assert rotated_list_linear_sol(numbers) == rotation
