@@ -19,3 +19,7 @@ def test_rotated_list_linear_sol_with_one_rotation(numbers, rotation):
 ])
 def test_rotated_list_linear_sol_with_more_than_one_rotation(numbers, rotation):
     assert rotated_list_linear_sol(numbers) == rotation
+
+#Empty list
+def test_rotated_list_linear_sol_with_an_empty_list():
+    assert rotated_list_linear_sol([]) == -1
