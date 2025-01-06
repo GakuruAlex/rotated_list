@@ -11,6 +11,7 @@ def general_binary_search(numbers: List[int], low: int, high: int, condition)-> 
             return middle_index + 1
         elif result == 'left':
             high = middle_index - 1
-        low = middle_index + 1
+        else:
+            low = middle_index + 1
     return -1
 
