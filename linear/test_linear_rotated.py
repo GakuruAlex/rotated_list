@@ -1,5 +1,5 @@
 import pytest
-from linear.linear_rotated import rotated_list_linear_sol
+from linear_rotated import rotated_list_linear_sol
 
 #One rotation with positive integers
 @pytest.mark.parametrize("numbers, rotation", [
