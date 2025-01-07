@@ -10,7 +10,7 @@ Find the minimum number of times a list sorted in ascending order is rotated to 
 
 Numbers: A rotated listed i.e [9,10,11,5,6,7,8]
 
-## Outout ##
+## Output ##
 
 Rotation: Number of times original list was rotated to get current list i.e 3 for list above.
 
