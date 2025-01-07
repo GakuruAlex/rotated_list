@@ -16,6 +16,5 @@
 
 8.Repeat 1 to 7
 
-9.If no more sublist to search return 0
 
 

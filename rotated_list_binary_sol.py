@@ -1,10 +1,10 @@
-from typing import List
+from typing import List, Literal
 from general_binary_search import general_binary_search
 
 def rotated_list_binary_sol(numbers: List[int]) -> int:
     if len(numbers) < 1:
         return -1
-    def condition(middle_index: int):
+    def condition(middle_index: int)-> Literal['found', 'left', 'right']:
         middle_number: int = numbers[middle_index]
         if middle_number > numbers[middle_index + 1]:
             return 'found'
