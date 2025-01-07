@@ -8,11 +8,12 @@ def general_binary_search(low: int, high: int, condition)-> int:
         print(f"Middle index: {middle_index} low {low} high {high}")
         if result == 'found':
             return middle_index + 1
+        elif result == 'no rotation':
+            return 0
         elif result == 'left':
             high = middle_index - 1
         elif result == 'right':
             low = middle_index + 1
-        elif result == 'no rotation':
-            return 0
-    return -1
+       
+    return 0
 
