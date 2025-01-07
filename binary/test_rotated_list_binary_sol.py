@@ -1,6 +1,5 @@
 import pytest
-from binary.rotated_list_binary_sol import rotated_list_binary_sol
-
+from rotated_list_binary_sol import rotated_list_binary_sol
 
 #One rotation with positive integers
 @pytest.mark.parametrize("numbers, rotation", [
