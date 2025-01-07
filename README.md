@@ -34,6 +34,8 @@ Rotation: Number of times original list was rotated to get current list i.e 3 fo
 
 8. A list with negative and positive integers rotated 5 times i.e  [-12,-10, 0, 4, 6, -24, -20, -18, -14]
 
+9. A rotated list with repeated numbers [16, 19, 19, 20, 20, 0, 4, 4, 6, 6, 8, 10]
+
 ### Tests ###
 
 tests =[
