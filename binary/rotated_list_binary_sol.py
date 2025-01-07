@@ -1,5 +1,5 @@
 from typing import List, Literal
-from general_binary_search import general_binary_search
+from binary.general_binary_search import general_binary_search
 
 def rotated_list_binary_sol(numbers: List[int]) -> int:
     if len(numbers) < 1:

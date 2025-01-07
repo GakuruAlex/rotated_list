@@ -1,5 +1,5 @@
 import pytest
-from rotated_list_binary_sol import rotated_list_binary_sol
+from binary.rotated_list_binary_sol import rotated_list_binary_sol
 
 
 #One rotation with positive integers
