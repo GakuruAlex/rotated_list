@@ -61,3 +61,13 @@ def test_rotated_list_binary_sol_with_both_positive_and_negative_integers(number
 ])
 def test_rotated_list_binary_sol_with_list_of_repeated_numbers(numbers, rotation):
     assert rotated_list_binary_sol(numbers) == rotation
+
+#Test a list rotated n-1 times
+@pytest.mark.parametrize("numbers, rotation",[
+    ([18,27,36,45,54,63,72,81,10], 8),
+    ([10,1], 1),
+    ([20, 30, 40, 50, 10], 4),
+    ([-50, -40, -30, -20, -10, -60], 5)
+])
+def test_rotated_list_binary_sol_for_n_1_rotations(numbers, rotation):
+    assert rotated_list_binary_sol(numbers) == rotation
